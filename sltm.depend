@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1705357265 source:/home/joaoiacillo/cworkspaces.d/learning-c-and-gnulib.workspace.d/sltm/main.c
+	<stdio.h>
+	<stdlib.h>
+	<dirent.h>
+	<signal.h>
+	"help.h"
+	"strutils.h"
+	"proc.h"
+
+1705352390 /home/joaoiacillo/cworkspaces.d/learning-c-and-gnulib.workspace.d/sltm/strutils.h
+
+1705345624 source:/home/joaoiacillo/cworkspaces.d/learning-c-and-gnulib.workspace.d/sltm/stm.c
+
+1705352405 source:/home/joaoiacillo/cworkspaces.d/learning-c-and-gnulib.workspace.d/sltm/strutils.c
+	"strutils.h"
+	<string.h>
+	<ctype.h>
+
+1705353291 source:/home/joaoiacillo/cworkspaces.d/learning-c-and-gnulib.workspace.d/sltm/proc.c
+	"proc.h"
+	<stdio.h>
+	<stdlib.h>
+	<dirent.h>
+	<string.h>
+	"strutils.h"
+
+1705352857 /home/joaoiacillo/cworkspaces.d/learning-c-and-gnulib.workspace.d/sltm/proc.h
+	<dirent.h>
+
+1705355850 /home/joaoiacillo/cworkspaces.d/learning-c-and-gnulib.workspace.d/sltm/help.h
+
+1705356263 source:/home/joaoiacillo/cworkspaces.d/learning-c-and-gnulib.workspace.d/sltm/help.c
+	<stdio.h>
+	<stdlib.h>
+
