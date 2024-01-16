@@ -1,5 +1,5 @@
-#ifndef _STM_PROC_H
-#define _STM_PROC_H
+#ifndef _LP_PROC_H
+#define _LP_PROC_H
 
 #include <dirent.h>
 
@@ -19,13 +19,13 @@ typedef struct
 } procdir_t;
 
 /// Reads a process of pid into proc
-void procread(proc_t *, const char *);
+extern void procread(proc_t *, const char *);
 
 /// Opens the process directory into procd
-void openpdir(procdir_t *);
+extern void openpdir(procdir_t *);
 
 /// Reads the next process dir and returns 1 if it exists, 0 otherwise.
 /// Auto closes the procd once no more processes exist.
-int procdnxt(procdir_t *);
+extern int procdnxt(procdir_t *);
 
-#endif // _STM_PROC_H
+#endif // _LP_PROC_H
