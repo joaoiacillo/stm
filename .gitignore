@@ -24,11 +24,12 @@
 
 # Shared objects (inc. Windows DLLs)
 *.dll
-*.so
+#*.so
 *.so.*
 *.dylib
 
 # Executables
+bin/
 *.exe
 *.out
 *.app
