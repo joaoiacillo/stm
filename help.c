@@ -11,6 +11,6 @@ void print_help()
          "    [PID]: NAME - MEMORY USAGE\n\n"
          "Options:\n"
          "  -h            Prints the help message.\n"
-         "  -k PID        Kills the process of PID");
+         "  -k PID        Kills the process of PID\n");
   exit(0);
 }
